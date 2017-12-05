@@ -1,0 +1,102 @@
+\documentclass[dissertation,math,vertlayout]{aaltoseries}
+\graphicspath{{./Figures/}}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{lipsum}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{url}
+\usepackage{amsmath}
+
+
+\author{Pietro della Briotta Parolo}
+\title{Analysis of cumulative and temporal patterns in science}
+\begin{document}
+%\includepdf[pages=-,pagecommand={},width=\textwidth]{Documents/header.pdf}
+
+
+
+\begin{preface}[Espoo]
+
+This thesis is the product of the work started at BECS in winter 2013 and eventually 
+completed at the CS department in the summer of 2017. 
+
+Looking back at these 4 years it's an interesting and exciting dive into
+a lot of moments that have influenced heavily my life both privately as well as professionally.
+Moving to Finland to pursue my academic passion was not just a big step forward in my career, but also
+a big leap into a new world of which I admit I knew very little about beforehand. The first days were
+therefore often as exciting as well as confusing and I need to thank the whole staff working at BECS
+at the time for keeping an eye on me. In particular I'd like to mention Lauri Kovanen, who showed me 
+the ways of the Python, Arnab Chatterjee and Marija Mitrovi\'c, with whom I often discussed about Science
+in general, Raj Kumar Pan and Richard Darst, who had the patience to help me with often small
+technical issues that I was not able to overcome on my own. Also, a huge thanks goes to my doctoral office mate, Darko Hric,
+with whom I shared all the ups and downs of this adventure.
+
+Leaving BECS was a huge change from many aspects. Most of the senior staff in the meantime had decided
+to leave Aalto, ultimately leading to the departure also of my supervisor, Prof. Santo Fortunato,
+whom I thank for guiding me and making me understand the pros and cons of life in academia. 
+This period was extremely hectic, especially also with the organization of the iccss conference, which
+unfortunately does not show up as part of this dissertation, but which is one of my proudest contribution
+to Science, given the amount of work required and the quality of the final product, for which
+Prof. Fortunato. This period culminated with yet another move to a new office within the CS department,
+which represented the final stage of my stay at Aalto, now with the supervision
+of Dr. Mikko Kivel\"a and Prof. Kimmo Kaski, to whom I owe a huge amount of gratitude
+for "adopting" me in the final stage of my PhD and allowing me to conclude a project that turned out
+to be both exciting and productive. Prof. Kaski was not only an excellent scientific
+guide, but also a key figure in terms of supporting me, both personally and professionally,
+until the very end of my experience at Aalto.
+
+Finally, a big thanks to all those who have had the unfortunate experience
+of being around me during my studies, but withouth whose support I wouldn't have been
+able to get this far. 
+
+
+
+\end{preface}
+
+
+
+\clearpage
+\tableofcontents
+\listofpublications
+
+\include{Chapters/introduction}
+
+\include{Chapters/chapter1}
+\include{Chapters/chapter2}
+\include{Chapters/chapter3}
+\include{Chapters/chapter4}
+
+\renewcommand{\bibname}{References}
+\bibliographystyle{ieeetr}
+\bibliography{references.bib}
+
+
+\addpublication{Francesco Becattini, Arnab Chatterjee, Santo Fortunato, Marija Mitrović, Raj Kumar Pan, Pietro Della Briotta Parolo}{The Nobel Prize delay
+}{Physics Today}{DOI:10.1063/PT.5.2012}{May}{2014}{Copyright Holder}{j1}
+\addpublicationpdf{articlespdf/nobel_PT.pdf}
+\addcontribution{The author contributed to the collection of the data.}
+
+\addpublication{Pietro Della Briotta Parolo, Raj Kumar Pan, Rumi Ghosh Bernardo A. Huberman, Kimmo Kaski, Santo Fortunato}{Attention Decay in Sciene}
+{Journal of Informetrics}{
+Volume 9, Issue 4,  Pages 734–745}{October}{2015}{Copyright Holder}{j1}
+\addpublicationpdf{articlespdf/attention_decay.pdf}
+\addcontribution{The author carried out most of the analysis. Primary writer of the article.}
+
+\addpublication{Pietro Della Briotta Parolo, Santo Fortunato}{Uncovering the Dynamics of Ego Networks of Scientific Gems}{preprint}{
+submitted to peer review}{January}{2017}{Copyright Holder}{j1}
+\addpublicationpdf{articlespdf/EgoNetworks.pdf}
+\addcontribution{The author implemented the analysis. Major role in writing the article.}
+
+\addpublication{Pietro Della Briotta Parolo, Mikko Kivel\"a, Kimmo Kaski}{On the Shoulders of Giants: tracking the cumulative knowledge spreading in citation
+networks}
+{preprint}{
+submitted to peer review}{June}{2017}{Copyright Holder}{j1}
+\addpublicationpdf{articlespdf/SOG.pdf}
+\addcontribution{The author implemented the analysis. Major role in writing the article.}
+\end{document}
+
+

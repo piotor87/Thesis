@@ -1,0 +1,82 @@
+\chapter{Results}
+
+\section{Temporal Patterns}
+
+Publication I studies the changes over time of the age statistics in the awarding of Nobel Prizes. In the early days of the award, prizes in Physics, Medicine and Chemistry had
+a $\approx 50\% $ chance to be awarded to discoveries from the previous decade, while only a smaller fraction $\approx 20\%$ of prizes was awarded to discoveries older than 20 years. In time
+the pattern has dramatically reversed, with nowadays more than half of the prizes being awarded over 20 years from discovery. As a result, also the age at which the Nobel prize
+laureates are awarded has seen a drastic increasing trend, that ultimately might lead, by the end of the century, to not be able to reward an old discovery, since the prizes cannot
+be awarded posthumously. While it is not simple to offer an exhaustive explanation for this trend, we suggested that a plausible one might be one of two extreme scenarios:
+on one hand it could be possible that the number of groundbreaking discoveries has been decreasing, therefore forcing the Nobel committee to look at older ones to find a worthy winner;
+on the other hand instead it could be that the rate of new significant discoveries has increased so much that the limit to only 2 independent discoveries being awarded every year cannot
+keep up with the pace of scientific innovation. 
+
+Publication II studies the intrinsic temporal features of the life cycle of an individual paper. Publications from a dataset of over 50 million papers and 600 million
+citations were grouped by peak year, i.e. the year in which the higher number of yearly citations was reached, thus separating the history of a paper between its rise to
+"fame" and its consequent decay. In order to compare individual cycles, citation cycles were renormalized so that the maximum value (i.e. the peak) would equal to one. The time required
+to peak has been constantly shrinking in time across the fields of Physics, Medicine, Biology and Chemistry, with Biology showing the lowest numbers in general. The result is coherent
+with previous studies that show the average reference age being increasing in time, thus allowing to allocate less attention to more recent papers, which inevitably peak earlier. On the other
+side of the peak, the decay was found to have a form very close to either an exponential or a power law, with the former working better for older publications and the latter
+being a better fit as time goes by. This feature might be a consequence of the citation mechanism being linked to a ultradiffusive process, i.e. a mechanism in which a later event might be caused by or correlated to an earlier event
+or a combination of earlier events: in this case the citation count. This ultradiffusive approach allows to quantify the probability of a paper having a certain number 
+of citations as an auto correlation function between citation counts, which can be shown analytically to be either exponential or power law in its form, as it was found in the data. Finally
+a non-parametric quantification of the time required to decay (i.e. an half life) allows us to show a similar pattern as for the time to peak: across fields there is a clear
+shrinking in the time required for a paper to be forgotten. 
+
+Publication III studies the temporal evolution of the Ego Network of highly cited scientific papers. An Ego Network built based on a single paper (the EGO) and is formed
+by the publications citing as nodes (the Ego is not included) with all the citations between such publications as edges. Since results of Publications I have shown
+that the cycle of a paper is extremely short, the EN was analyzed in its evolution in snapshots of 2 and 3 years in size, thus focusing on a temporally coherent bulk of papers that shared
+the Ego in their reference lists. The structure of the EN in its earliest years initially consolidates in a dense community, but is later followed by a consistent
+scenario, in which the networks fragment into many small components within 10 years from publication of the
+ego-paper, possibly linked to a specialization of the offspring of the Ego or to an increased popularity of the ego across disciplines, thus affecting the probability of cross citing.
+
+\section{Cumulative Patterns}
+
+Publication IV studies the cumulative process of knowledge spreading stemming from the knowledge created by an individual papers. Starting from individual papers a measure
+called persistent influence is introduced and is
+based on citing papers inheriting the knowledge of cited papers. The process is then repeated recursively, thus propagating the initial influence into a cascade that eventually allows to quantify
+the overall influence a single paper has had on the whole corpus of scientific publications, unlike citation counts, which are based only on a local snapshot of the network limited
+to the first "round" of citations. Nobel winning papers are used as a benchmark for highly influential papers and in the persistent influence framework are found to be performing
+significantly better in their influence measures if compared to papers with similar citation counts, thus reinforcing the idea that a difference exists between local and global influence
+of a paper. 
+
+Publication IV also introduced a diffusive method that is used to quantify the flow of knowledge across categories (field,subfields and journals). Curves representing the loss of knowledge to other
+scientific categories shows a constant pattern where knowledge rapidly falls and then converges to a plateau in a typical time (the half life). While the plateau value varies across disciplines but is constant in time,
+the half life is decreasing in time for virtually all fields, suggesting an increase in interdisciplinarity. Furthermore, there seems to be in time a narrowing of the difference in
+half lives of humanistic fields (higher values) and of hard sciences (lower values), possibly linked to a structural change in the citing patterns of humanities. Multidisciplinary studies
+are found to have a peculiar pattern: their plateau value is increasing and their half life slowing down is among the slowest, suggesting that multidisciplinarity is possibly
+becoming a stand alone field that is growing internally.
+
+Publications II and IV offer a tool of renormalization that uses cumulative information to rescale temporal patterns, thus connecting the two aspects. In both studies, temporal patterns
+were calculated using years as an absolute measure of time. However, in both cases, the quantities being measured were part of a system in which "updates" happen every time a new publication
+appears. In a system where publications come in at a constant rate, the two measure would coincide but that is not the case in science, where publications are growing at a slow,
+yet exponential rate. A renormalization of the time based on the number of publications instead, offers a dramatic change in the patterns observed. The speeding up in the 
+half life for the decay of attention of a paper shown in Publication I slows down to the point where the process seems to be stable over decades and across fields, thus providing evidence
+for the fact that a faster decay is just a consequence of the impossibility for scientists to keep track for the ever growing amount of published material. Similarly,
+the speeding up of the spread of knowledge across fields found in Publication IV also changes its structure, indicating that the increasing speed of knowledge sharing across scientific fields
+could be explained by the increase in the speed at which the system is updated.
+
+
+\clearpage
+\section{Discussion}
+Science of science as a field has seen a massive series of changes in the time since its formulation in the post war period. For a long time the pursuit of new findings in the field
+was hindered by the absence of properly indexed data sets that would allow a systematic analysis of the data available. As scientific data piled up over the decades and with
+the ever growing role of digitalization in modern times, such hinders were removed, uncovering a massive amount of information on the underlying dynamics that 
+govern the way science works and operates.
+
+Ever since an increasing amount of effort has been put into the uncovering of the pattenrs hidden in data from scientific publications: connections between papers, authors,
+institutions, fields, countries allowed to unravel the intrinsic properties that are at the basis of the production of scientific material. In this kind of research the basic
+approach has often been the one to analyze the data in locally and temporally confined snapshots. Furthermore, as scientific research sees its economical aspects become more relevant year after year, quantification of scientific output has also seen a spark in interest both from scientists
+and from those hiring them. This has led to a constant search for perfect metrics able to grasp universal properties for individual authors,journals or papers, compacting longitudinal careers, both past and future,
+into a mere number.
+
+The research presented in this Thesis presents a diametrically opposed point of view to the matter; science does not represent a static platform for the output 
+of new information, but is rather an everchanging
+system with sociological,economical and geographical charactheristics, which is bound to be influenced by the constant modifcation of the real world on which it is ultimately based. Such changes in turn, lead to a modfication of science's very own
+structure, thus creating patterns that are constantly evolving in time. In particular, science has been going through a constant exponential growth over the decades
+since the post war era, with more and more scientific knowledge accumulating on top of previous findings over a short interval of time. 
+
+The main focus of this Thesis has been the one to analyze these temporal and cumulative patterns both by considering their individual contribution to the analysis of scientific
+data as well as their united one. Only with this \textit{combined} approach has it been possible to properly quantify the dynamics of life cycles of citation histories and Ego Network
+structures of individual papers, as well as the information flow between areas of science. Similarly, it allowed to introduce a paper-based measure to quantify the influence of a single 
+publication over the whole corpus of scientific data, also allowing to track its evolution in time.

@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: Chapters/introduction.aux
+A level-1 auxiliary file: Chapters/chapter1.aux
+A level-1 auxiliary file: Chapters/chapter2.aux
+A level-1 auxiliary file: Chapters/chapter3.aux
+A level-1 auxiliary file: Chapters/chapter4.aux
+The style file: ieeetr.bst
+Database file #1: references.bib.bib
+Warning--I'm ignoring Amaral2000's extra "note" field
+--line 522 of file references.bib.bib
+Warning--I'm ignoring Amaral2000's extra "note" field
+--line 523 of file references.bib.bib
+Warning--empty title in Zipf
+Warning--empty year in 9782746232150
+Warning--empty author and editor in 0123242509
+Warning--empty journal in physics/0605087
+Warning--can't use both author and editor fields in Newman2004Connected
+Warning--empty booktitle in Fortunato:2007:API:1422841.1422847
+You've used 197 entries,
+            1876 wiz_defined-function locations,
+            1712 strings with 34480 characters,
+and the built_in function-call counts, 58427 in all, are:
+= -- 6240
+> -- 1756
+< -- 1
++ -- 674
+- -- 477
+* -- 4151
+:= -- 7880
+add.period$ -- 215
+call.type$ -- 197
+change.case$ -- 190
+chr.to.int$ -- 0
+cite$ -- 203
+duplicate$ -- 3040
+empty$ -- 5249
+format.name$ -- 477
+if$ -- 14565
+int.to.chr$ -- 0
+int.to.str$ -- 197
+missing$ -- 196
+newline$ -- 612
+num.names$ -- 196
+pop$ -- 320
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 2572
+stack$ -- 0
+substring$ -- 4634
+swap$ -- 1564
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 6
+while$ -- 587
+width$ -- 200
+write$ -- 2026
+(There were 8 warnings)
